@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Drop-down Menu Bar</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="teach.css">
+	<link rel="stylesheet" href="gal.css">
+	<link rel="stylesheet" href="down.css">
+	<link rel="stylesheet" href="swiper.css">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<script type="text/javascript" src="swiper.min.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="ghUaesFdgmikb3ik1oSJi9qhKmeDfmpk6tGpIjW6shI" />
+  </head>
+  <body>
+  <nav>
+      <div class="logo">
+GIS</div>
+<label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+<li><a href="index.html">Home</a></li>
+<li>
+          <label for="btn-1" class="show">Department+</label>
+          <a href="#">Department</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+<li><a href="Geography.html" target="_blank">Geography</a></li>
+<li><a href="Geology.html"target="_blank">Geology</a></li>
+<li><a href="#">Others</a></li>
+</ul>
+</li>
+<li>
+          <label for="btn-2" class="show">Downloads +</label>
+          <a href="#">Downloads</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+<li><a href="R sensing.html">R sensing </a></li>
+<li><a href="#">P Geography</a></li>
+<li><a href="#">Python </a></li>
+<li>
+              <label for="btn-3" class="show">Others +</label>
+              <a href="#">More <span class="fa fa-plus"></span></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+<li><a href="#">Submenu-1</a></li>
+<li><a href="#">Submenu-2</a></li>
+<li><a href="#">Submenu-3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="http://ravigiscuk.blogspot.com/" target="_blank">Blog </a></li>
+<li><a href="contact.html" target="_blank">Contact</a></li>
+</ul>
+</nav>
+<div class="one"> Here are the list of Material which are avilale to download.</div>
+</body>
+
+<script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+</script>
+</html>

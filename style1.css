@@ -1,0 +1,19 @@
+body{
+	margin:0;
+	padding:0;
+}
+.box{
+	position:relative;
+	width:300px;
+	background:rgba(0,0,0,0.4);
+	padding:10px;
+	text-align:left;
+	margin-top:1% 0 99% 0;
+	color:white;
+	font-family:san-sarif;
+}
+.box-img{
+	border-radius:60%;
+	width:200px;
+	height:200px;
+}

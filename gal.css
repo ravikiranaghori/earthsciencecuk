@@ -1,0 +1,45 @@
+body {
+background: #000;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+margin: 0;
+padding: 0;
+}
+.swiper-container {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 450px;
+height:330px;
+background:#fff;
+}
+.swiper-slide .imgBX{
+	width:100%;
+	height:300 px;
+	overflow:hidden;
+}
+.swiper-slide .imgBX img{
+	width:100%;
+}
+.swiper-slide .details{
+	box-sizing:border-box;
+	font-size:15px;
+	padding:10px;
+}
+.swiper-slide .details h3{
+	margin:0;
+	padding:0;
+	height:10px;
+	font-size:15px;
+	text-align:center;
+	line-height:15px;
+}
+.swiper-slide .details h3 span{
+	font-size:14px;
+	color:#f44336;
+}
